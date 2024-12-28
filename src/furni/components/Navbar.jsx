@@ -27,7 +27,7 @@ function Navbar() {
           <Link to={"/"}  className="fas fa-user">log in</Link>
         </li>
         <li className="icons">
-          <Link to={"/"}  className="fas fa-shopping-cart" > cart</Link>
+          <Link to={"/Cart"}  className="fas fa-shopping-cart" > Cart</Link>
         </li>
       </ul>
     </header>

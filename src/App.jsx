@@ -5,6 +5,7 @@ import Layout from './furni/components/Layout';
 import Home from './furni/components/Home';
 import Products from './furni/Products/Products';
 import Navbar from './furni/components/Navbar';
+import Cart from './furni/Context/Cart';
 import PropTypes from 'prop-types';
 
 function ErrorBoundary({ error }) {
@@ -35,7 +36,12 @@ const browserRouter = createBrowserRouter([
       {
         path: "products",
         element: <Products />
+      },
+      {
+        path: "Cart",
+        element: <Cart />
       }
+
     ],
   },
 ]);
