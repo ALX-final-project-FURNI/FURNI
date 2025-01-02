@@ -13,7 +13,7 @@ function Products() {
       {
         products.map((item) => (
           <div key={item.id} className='card m-2'>
-             <img src={`/react/public/images/${item.image}`} alt="" className='card-img' style={ { width:"18rem"} } />
+             <img src={`/images/${item.image}`} alt="" className='card-img' style={ { width:"18rem"} } />
              <div className='card-body'>
                <h3>{item.name}</h3>
                <span>{item.price} $</span>

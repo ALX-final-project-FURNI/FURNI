@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://EmanNeyaz.github.io/ALX-final-project-FURNI",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,8 +11,7 @@
     "preview": "vite preview",
     "start": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "homepage": "https://github.com/EmanNeyaz/ALX-final-project-FURNI.git"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
